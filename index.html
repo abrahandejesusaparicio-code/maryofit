@@ -440,35 +440,7 @@
             box-shadow: 0 20px 60px rgba(121, 231, 246, 0.3);
         }
 
-        /* ==================== TESTIMONIALS WITH PARALLAX ==================== */
-        .testimonials {
-            padding: 8rem 5%;
-            background: linear-gradient(135deg, var(--tintshade-4) 0%, var(--color-5) 100%);
-            position: relative;
-            overflow: hidden;
-        }
-
-        .testimonials-container {
-            max-width: 1400px;
-            margin: 0 auto;
-            position: relative;
-        }
-
-        .testimonials-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-            gap: 3rem;
-            margin-top: 3rem;
-        }
-
-        .testimonial-item {
-            position: relative;
-        }
-
-        .testimonial-item img {
-            width: 100%;
-            border-radius: 20px;
-            box-shadow: 0 20px 60px rgba(121, 231, 246, 0.3);
+px rgba(121, 231, 246, 0.3);
             transition: all 0.5s ease;
         }
 
@@ -863,11 +835,19 @@
             <h2 class="section-title" data-translate="testimonials_title">Lo Que Dicen Mis Clientes</h2>
             
             <div class="testimonials-grid">
-                <div class="testimonial-item slide-left">
-                    <img src="pics&vids/testimonial_1.jpg" alt="Testimonio 1">
-                </div>
                 <div class="testimonial-item slide-right">
+                    <img src="pics&vids/testimonial_1.jpg" alt="Testimonio 1">
+                    <div class="testimonial-content">
+                        <p data-translate="testimonial1_text">"Mary cambió mi vida completamente. Bajé 15kg y gané confianza en mí misma. ¡Su energía es contagiosa!"</p>
+                        <div class="testimonial-author" data-translate="testimonial1_author">- Ana M.</div>
+                    </div>
+                </div>
+                <div class="testimonial-item slide-left">
                     <img src="pics&vids/testimonial_2.jpg" alt="Testimonio 2">
+                    <div class="testimonial-content">
+                        <p data-translate="testimonial2_text">"Las clases de Zumba son lo mejor de mi semana. Me divierto tanto que ni siento que estoy haciendo ejercicio."</p>
+                        <div class="testimonial-author" data-translate="testimonial2_author">- Carlos R.</div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -940,7 +920,7 @@
                 <h3 data-translate="map_title">Encuéntranos</h3>
                 <div class="map-wrapper">
                     <iframe 
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.2!2d-79.9!3d9.4!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zOcKwMjQnMDAuMCJOIDc5wrA1NCcwMC4wIlc!5e0!3m2!1sen!2spa!4v1234567890"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62821.89415779524!2d-79.94869647910156!3d9.367844999999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8faca8f1f5555555%3A0xaaaaaaaaaaaaaaaa!2sCol%C3%B3n%2C%20Panama!5e0!3m2!1sen!2spa!4v1234567890123"
                         allowfullscreen="" 
                         loading="lazy" 
                         referrerpolicy="no-referrer-when-downgrade">
